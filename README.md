@@ -1,3 +1,4 @@
+
 # HorizonGest
 
 HorizonGest is a C++ project that enables users to control system volume and brightness through hand gestures. The platform utilizes computer vision techniques powered by OpenCV to detect hand movements via a webcam, allowing for real-time adjustments of system settings without physical input devices.
@@ -30,7 +31,10 @@ HorizonGest leverages hand gesture recognition to control system settings like v
 - **Language**: C++ (Core logic and system control)
 - **Computer Vision**: OpenCV (Hand detection and gesture recognition)
 - **System Control**: Windows API (For controlling volume and brightness)
+<<<<<<< HEAD
 - **Preferred IDE**: Visual Studio 2022
+=======
+>>>>>>> 3803a3672e163012e44eb74d13636486a496b345
 
 ## Installation
 
@@ -40,6 +44,7 @@ HorizonGest leverages hand gesture recognition to control system settings like v
    git clone https://github.com/yourusername/HorizonGest.git
    ```
 
+<<<<<<< HEAD
    and copy HorizonGest.cpp
 
 2. Open Visual Studio 2022:
@@ -80,6 +85,25 @@ HorizonGest leverages hand gesture recognition to control system settings like v
    ```
 
 6. Run the application:
+=======
+2. Navigate to the project directory:
+
+   ```bash
+   cd HorizonGest
+   ```
+
+3. Install OpenCV:
+
+   - Follow the [OpenCV installation guide](https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html) for your platform.
+
+4. Compile the project:
+
+   ```bash
+   g++ horizon_gest.cpp -o HorizonGest -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_objdetect
+   ```
+
+5. Run the application:
+>>>>>>> 3803a3672e163012e44eb74d13636486a496b345
 
    ```bash
    ./HorizonGest
@@ -92,7 +116,11 @@ HorizonGest leverages hand gesture recognition to control system settings like v
 3. **Real-Time Detection**: The system will display the current volume and brightness levels on-screen as your hand moves.
 4. **Smooth Transitions**: Volume and brightness adjustments are smoothed using a moving average to ensure smooth changes without abrupt jumps.
 
+<<<<<<< HEAD
 ## Application Preview
+=======
+## Site Preview
+>>>>>>> 3803a3672e163012e44eb74d13636486a496b345
 
 ![HorizonGest gif](https://github.com/yourusername/HorizonGest/assets/demo.gif)
 
@@ -113,6 +141,10 @@ This project is licensed under the MIT License. See the [MIT LICENSE](LICENSE) f
 
 If you have any questions or suggestions, feel free to contact the project team:
 
+<<<<<<< HEAD
 - [Sarthak Dharmik (XaXtric7)](https://github.com/XaXtric7)
 - [Ansh (PikachuGX)](https://github.com/PikachuGX)
 - [Disha Jain (dishaj18)](https://github.com/dishaj18)
+=======
+- [Your Name](https://github.com/yourusername)
+>>>>>>> 3803a3672e163012e44eb74d13636486a496b345
