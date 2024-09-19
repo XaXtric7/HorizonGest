@@ -9,6 +9,7 @@ HorizonGest is a C++ project that enables users to control system volume and bri
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Application Preview](#application-preview)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -30,82 +31,59 @@ HorizonGest leverages hand gesture recognition to control system settings like v
 - **Language**: C++ (Core logic and system control)
 - **Computer Vision**: OpenCV (Hand detection and gesture recognition)
 - **System Control**: Windows API (For controlling volume and brightness)
-  <<<<<<< HEAD
-- # **Preferred IDE**: Visual Studio 2022
-  > > > > > > > 3803a3672e163012e44eb74d13636486a496b345
+- **Preferred IDE**: Visual Studio 2022
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/HorizonGest.git
+   git clone https://github.com/XaXtric7/HorizonGest.git
    ```
-
-<<<<<<< HEAD
-and copy HorizonGest.cpp
 
 2. Open Visual Studio 2022:
 
-   - Create new project
-   - Choose C++ Console App
-   - Paste the HorizonGest.cpp in it
+   - Create a new project
+   - Choose **C++ Console App**
+   - Paste the content of `HorizonGest.cpp` into the project
 
 3. Download & Install OpenCV:
 
-   - Download the latest release : [OpenCV(click here)](https://opencv.org/releases/)
-   - Add bin and lib folders to Environmental variables
+   - Download the latest release: [OpenCV (click here)](https://opencv.org/releases/)
+   - Add the `bin` and `lib` folders to **Environmental Variables**
 
 4. Download & Install CMake:
 
-   - Download the latest release : [OpenCV(click here)](https://opencv.org/releases/)
-   - Add bin folder to Environmental variables
+   - Download the latest release: [CMake (click here)](https://opencv.org/releases/)
+   - Add the `bin` folder to **Environmental Variables**
 
-5. Go to project properties in VS 2022:
+5. Go to project properties in Visual Studio 2022:
 
-   - Change and edit the followings:
-     i. VC++ Directories--> Include directories
+   - Change and edit the following paths:
 
-   ```bash
-   Locate OpenCV and add path C:\opencv\build\include
-   ```
+     i. **VC++ Directories --> Include Directories**
 
-   ii. VC++ Directories--> Library directories
+     ```bash
+     Locate OpenCV and add path: C:\opencv\build\include
+     ```
 
-   ```bash
-   Locate OpenCV and add path C:\opencv\build\x64\vc16\lib
-   ```
+     ii. **VC++ Directories --> Library Directories**
 
-   iii.Linker-->Input-->Additional Dependencies
+     ```bash
+     Locate OpenCV and add path: C:\opencv\build\x64\vc16\lib
+     ```
 
-   ```bash
-   opencv_world4100d.lib
-   ```
+     iii. **Linker --> Input --> Additional Dependencies**
 
-6. # Run the application:
-7. Navigate to the project directory:
+     ```bash
+     opencv_world4100d.lib
+     ```
 
-   ```bash
-   cd HorizonGest
-   ```
-
-8. Install OpenCV:
-
-   - Follow the [OpenCV installation guide](https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html) for your platform.
-
-9. Compile the project:
+6. Run the application:
 
    ```bash
-   g++ horizon_gest.cpp -o HorizonGest -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_objdetect
+   ./HorizonGest
    ```
-
-10. Run the application:
-
-    > > > > > > > 3803a3672e163012e44eb74d13636486a496b345
-
-    ```bash
-    ./HorizonGest
-    ```
 
 ## Usage
 
@@ -114,15 +92,7 @@ and copy HorizonGest.cpp
 3. **Real-Time Detection**: The system will display the current volume and brightness levels on-screen as your hand moves.
 4. **Smooth Transitions**: Volume and brightness adjustments are smoothed using a moving average to ensure smooth changes without abrupt jumps.
 
-<<<<<<< HEAD
-
 ## Application Preview
-
-=======
-
-## Site Preview
-
-> > > > > > > 3803a3672e163012e44eb74d13636486a496b345
 
 ![HorizonGest gif](https://github.com/yourusername/HorizonGest/assets/demo.gif)
 
@@ -131,7 +101,7 @@ and copy HorizonGest.cpp
 We welcome contributions! Please follow these steps to contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
+2. Create a new branch for your feature or bug fix.
 3. Commit your changes.
 4. Push your branch and submit a pull request.
 
@@ -143,10 +113,6 @@ This project is licensed under the MIT License. See the [MIT LICENSE](LICENSE) f
 
 If you have any questions or suggestions, feel free to contact the project team:
 
-<<<<<<< HEAD
-
 - [Sarthak Dharmik (XaXtric7)](https://github.com/XaXtric7)
 - [Ansh (PikachuGX)](https://github.com/PikachuGX)
-- # [Disha Jain (dishaj18)](https://github.com/dishaj18)
-- [Your Name](https://github.com/yourusername)
-  > > > > > > > 3803a3672e163012e44eb74d13636486a496b345
+- [Disha Jain (dishaj18)](https://github.com/dishaj18)
